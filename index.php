@@ -40,7 +40,7 @@
 
     ];
 
-    echo $hotels;
+    var_dump($hotels);
 
 ?>
 
