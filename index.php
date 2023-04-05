@@ -41,7 +41,6 @@
     ];
 
     var_dump($hotels);
-
 ?>
 
 
@@ -73,35 +72,35 @@
     <tr>
       <th scope="row"><?php echo $hotels [0] ['name']; ?></th>
       <td><?php echo $hotels [0] ['description']; ?></td>
-      <td><?php echo $hotels [0] ['parking']; ?></td>
+      <td><?php echo $hotels [0] ['parking'] ? 'SI' : 'NO'; ?></td>
       <td><?php echo $hotels [0] ['vote']; ?></td>
       <td><?php echo $hotels [0] ['distance_to_center']; ?> km</td>
     </tr>
     <tr>
       <th scope="row"><?php echo $hotels [1] ['name']; ?></th>
       <td><?php echo $hotels [1] ['description']; ?></td>
-      <td><?php echo $hotels [1] ['parking']; ?></td>
+      <td><?php echo $hotels [1] ['parking'] ? 'SI' : 'NO'; ?></td>
       <td><?php echo $hotels [1] ['vote']; ?></td>
       <td><?php echo $hotels [1] ['distance_to_center']; ?> km</td>
     </tr>
     <tr>
       <th scope="row"><?php echo $hotels [2] ['name']; ?></th>
       <td><?php echo $hotels [2] ['description']; ?></td>
-      <td><?php echo $hotels [2] ['parking']; ?></td>
+      <td><?php echo $hotels [2] ['parking'] ? 'SI' : 'NO'; ?></td>
       <td><?php echo $hotels [2] ['vote']; ?></td>
       <td><?php echo $hotels [2] ['distance_to_center']; ?> km</td>
     </tr>
     <tr>
       <th scope="row"><?php echo $hotels [3] ['name']; ?></th>
       <td><?php echo $hotels [3] ['description']; ?></td>
-      <td><?php echo $hotels [3] ['parking']; ?></td>
+      <td><?php echo $hotels [3] ['parking'] ? 'SI' : 'NO'; ?></td>
       <td><?php echo $hotels [3] ['vote']; ?></td>
       <td><?php echo $hotels [3] ['distance_to_center']; ?> km</td>
     </tr>
     <tr>
       <th scope="row"><?php echo $hotels [4] ['name']; ?></th>
       <td><?php echo $hotels [4] ['description']; ?></td>
-      <td><?php echo $hotels [4] ['parking']; ?></td>
+      <td><?php echo $hotels [4] ['parking'] ? 'SI' : 'NO'; ?></td>
       <td><?php echo $hotels [4] ['vote']; ?></td>
       <td><?php echo $hotels [4] ['distance_to_center']; ?> km</td>
     </tr>
